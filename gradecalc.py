@@ -16,11 +16,12 @@ score = average()
 
 print(score)
 
-if score < 40:
+if score > 40:
     print("Excellent!")
-elif score < 25:
+elif score > 25:
     print("Good work!")
 else:
     print("You have failed!")
 
 average()
+
